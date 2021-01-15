@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+.row { max-width:1200px; margin:0 auto; padding:0 10; }
+body { color:#666666; 
+       font-family: 'Noto Sans KR', sans-serif; 
+       font-size:15px;
+}
+
+/* header 구역 */
+#header .outer {
+    background:#f3f3f3;
+    font-size:12px;
+    color:#999;
+    padding:10px 0px;
+    letter-spacing:-0.5px;
+}
+#header .membership {
+    float:right;
+}
+#header .membership a {
+    border-right:1px solid #999;
+    padding:0 15px;
+}
+#header .membership a:nth-child(1) {
+    border-left:1px solid #999;
+}
+#header h1 { padding:20px;
+             float:left; }
+#nav {
+    float:right;
+    font-size:18px;
+    color:#1e1e1e;
+}
+#nav .depth1 > li {
+    display:inline-block;
+    padding:30px 35px;
+}
+
+
+/* section 구역 */
+.main .slide {
+    height:650px;
+    background:url(../img/main_img3.jpg) no-repeat center;
+    background-size:cover;
+    position:relative;
+}
+.main .slidetext {
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    top:30%; left:50%;
+    transform:translate(-50%, -50%);
+}
+.main .slidetext p:nth-child(1) {
+    font-weight:bold;
+    padding-bottom:30px;
+    font-size:42px;
+}
+.main .slidetext p:nth-child(2) {
+    font-size:16px;
+    padding-bottom:5px;
+}
+.main .slidetext p:nth-child(3) {
+    font-size:16px;
+    padding-bottom:40px;
+}
+.main .slidetext a {
+    font-size:15px;
+    padding:8px 35px;
+    border:1px solid #fff;
+}
+
+.article2 { height:700px;}
+.main .article2 h2 {
+    font-size:36px;
+    padding-top:40px;
+    font-weight:bold;
+    text-align:center;
+    color:#000;
+    padding-bottom:20px;
+}
+.main .chapter1 p {
+    font-size:14px;
+    text-align:center;
+    padding-bottom:20px;
+}
+.article .nav .img {
+    float:left; width:24%; height:520px; margin-right:1%; 
+    position:relative;
+    color:#fff;
+}
+
+.img {
+    height: 520px;
+    width: 24%;
+    color: #fff;
+    float: left;
+    text-align: left;
+    padding: 350px 20px 30px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.nav .img:nth-child(1) {
+    background:url(../img/what1.jpg) no-repeat center;
+}
+.nav .img:nth-child(2) {
+    background:url(../img/what2.jpg) no-repeat center;
+}
+.nav .img:nth-child(3) {
+    background:url(../img/what3.jpg) no-repeat center;
+}
+.nav .img:last-child {
+    background:url(../img/what4.jpg) no-repeat center;
+}
+.img > p:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+}
+.img > p:nth-child(2)  {
+    font-size: 14px;
+    padding: 30px 0px 10px;
+    line-height: 1.5;
+}
+.img > p:nth-child(3) {
+    font-size: 11px;
+    padding: 8px 40px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+
+.main .article .picture5 {
+    height:304px;
+    background:url(../img/intro_bg.jpg) no-repeat center;
+    background-size:cover;
+    text-align:center;
+    color:#fff;
+
+}
+.main .article .picture5 > p:nth-child(1) {
+    font-size:34px;
+    text-align:center;
+    font-weight:bold;
+    padding-top:70px;
+    padding-bottom:30px;
+}
+.main .article .picture5 > p:nth-child(2) {
+    font-size:14px;
+    padding-bottom:40px;
+}
+.main .article .picture5 a {
+    border:1px solid #fff;
+    font-size:13px;
+    padding:8px 30px;
+}
+
+.article4 { text-align:center;
+            background:#eee;
+            padding-top:50px;
+            padding-bottom:25px
+}
+.article4 .picture > h2 {
+    font-size: 36px;
+    color: #1e1e1e;
+    padding-top: 50px;
+    font-weight: bold;
+    text-align:center;
+    padding:20px 0px
+}
+.article4 picture > p {
+    font-size: 14px;
+    padding: 20px 0 40px;
+    text-align:center;
+}
+.picture { margin-bottom: 60px; }
+.article4 .depth2 {
+    overflow: hidden;
+}
+.article4 .depth2 li{
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+}
+.product { 
+    background:#fff;
+    margin-bottom: 4%;
+    border: 1px solid #ddd;
+    color: #1e1e1e;
+}
+.product > p {
+    line-height: 1.5;
+}
+.product > h3 {
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.product > p {
+    font-size: 14px;
+    padding: 0 25px 25px 25px;
+}
+
+
+/* footer 구역 */
+#footer { 
+    background:#333;
+    color:#ddd;
+    padding:30px;
+    text-align:center;
+}
+#footer .contact a {
+    display:inline-block;
+    padding:0 10px;
+    padding-bottom:20px;
+}
+#footer .company {
+    font-size:12px;
+    padding-bottom:20px;
+}
+#footer .company span {
+    padding:10px
+}
+#footer .menu a {
+    border:1px solid #ddd;
+    font-size:11px;
+    padding:3px 10px;
+
+}
+
+
+
+
